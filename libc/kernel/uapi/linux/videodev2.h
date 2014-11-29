@@ -817,6 +817,7 @@ struct v4l2_ext_control {
  char *string;
 /* WARNING: DO NOT EDIT, AUTO-GENERATED CODE - SEE TOP FOR INSTRUCTIONS */
  };
+__s32 rect[4];/*rockchip add for focus zone*/
 } __attribute__ ((packed));
 struct v4l2_ext_controls {
  __u32 ctrl_class;
